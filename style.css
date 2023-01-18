@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.app {
+  height:100%;
+  width: 600px;
+  background-color: rgb(170, 206, 206);
+  margin: auto;
+}
+
+header {
+  height: 150px;
+  background-color: rgb(222, 155, 155);
+}
+
+header div {
+  width: 100%;
+  display: flex;
+}
+
+header div:first-child {
+  height: 75px;
+  background-color: rgb(70, 89, 146);
+}
+
+header div nav {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+h1 {
+  margin: 20px 40px 20px 20px;
+}
+
+header div nav p {
+  padding: 10px 0px 10px 10px;
+  align-items: right;
+  margin: 10px;
+}
+
+header div:last-child {
+  padding: 0px;
+  height: 75px;
+  background-color: rgb(198, 144, 93);
+  font-size: 25px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header button {
+  padding: 0;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  background: url(https://e7.pngegg.com/pngimages/554/816/png-clipart-computer-icons-graphics-symbol-plus-minus-share-icon-black-and-white.png);
+  background-size: cover
+}
+
+header div > p {
+  text-align: right;
+  margin: 0px 0px 0px 330px;
+  padding: 20px;
+}
+
+img {
+  background: transparent;
+}
